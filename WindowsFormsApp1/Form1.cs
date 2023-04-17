@@ -35,5 +35,12 @@ namespace WindowsFormsApp1
             Form3 f3 = new Form3(con);
             f3.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form6 f6 = new Form6(con);
+            f6.ShowDialog();
+        }
     }
 }
